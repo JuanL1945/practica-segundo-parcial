@@ -22,7 +22,7 @@ function Contador() {
         }
     }, [timeLeft])
     return (
-        <div className="App">
+        <div className="container">
             <h1>{count}</h1>
             <h3>Tiempo restante: {timeLeft} segundos</h3>
             {timeLeft === 0 ? null :

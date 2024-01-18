@@ -1,4 +1,6 @@
 import React from "react";
+import '../styles/Contador.css';
+
 function Descripcion() {
     return (
         <div className="desc">
